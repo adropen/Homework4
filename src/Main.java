@@ -37,8 +37,8 @@ void main() {
         System.out.println("Если возраст человека равен " + humanAge + ", то ему нужно ходить на работу");
     }
     System.out.println("Задача 5");
-    int childrenAge = 15;
-    if (childrenAge < 5) {
+    int childrenAge = 5;
+    if (childrenAge <= 5) {
         System.out.println("Если возраст ребенка равен " + childrenAge + ", нельзя кататься на аттракционе.");
     }
     if (childrenAge > 5 && childrenAge <= 14) {
